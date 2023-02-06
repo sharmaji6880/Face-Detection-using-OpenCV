@@ -6,7 +6,7 @@ def resizeImage(frame,scale):
     dimensions=(width,height)
     return cv.resize(frame,dimensions)
 
-img=cv.imread("C:/Users/HP/Pictures/Camera Roll/WIN_20230206_17_11_37_Pro.jpg")
+img=cv.imread("Raghav_3.jpg")
 img=resizeImage(img,0.5)
 #cv.imshow("image",img)
 
